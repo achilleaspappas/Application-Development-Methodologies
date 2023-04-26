@@ -2,6 +2,36 @@
 
 The purpose of this project is to develop a Java application with a GUI that manages orders, which will be stored/read in files as described below. The development of the User Interface should be done using AWT and/or Swing technologies. This project was part of a course I did in my 4th semester.
 
+## Prerequisites
+
+To use the files in this repository, you will need the following:
+
+- [Java JDK](https://adoptium.net/) in order to build and run the project. 
+- A Java IDE like [Intellij](https://www.jetbrains.com/idea/) which was used to make this project.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Open the IDE and import the Java project files from the cloned repository.
+3. Build and run the project to test the functionality.
+
+## Contents
+
+This repository contains the following files:
+1. AboutWindow.java
+2. CalculateStatistics.java
+3. Data.java
+4. ExceptionList.java
+5. ListAdmin.java
+6. Main.java
+7. MainWindow.java
+8. Order.java
+9. OrderWindow.java
+10. StatisticsWindows.java
+11. zeus-screenshot.png
+
 ## Specifications
 
 ### GUI Appearance
@@ -31,12 +61,6 @@ The application must include four separate windows:
 6. About: This option will display information about the developer of the application (full name, student ID, development period) in a new window. It should also include a screenshot of the full desktop of your computer during the development phase of the application.
 
 7. Exit: Closing the application (with an appropriate confirmation message) and the ability to save unsaved records.
-
-## Usage
-
-- Run the application
-- Use the buttons and menus provided in the main window of the application to create, open, save, or view orders and their statistics.
-- Use the 'About' option to view information about the developer.
 
 ## Contributing
 
